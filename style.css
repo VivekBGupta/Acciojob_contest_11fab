@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(255, 185, 185, 0.276);
+}
+
+nav {
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 20px 80px;
+}
+
+#home {
+    margin-left: 867px;
+}
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+
+.cards {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 0.2px solid rgb(114, 114, 114);
+}
+
+.card .title {
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    width: 280px;
+}
+
+.card img {
+    margin: 15px 15px 0 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+.card .price {
+    margin: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 128);
+}
+.card .desc{
+    margin: 5px;
+    width: 280px;
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+    font-weight: 100;
+}
+.card #discount{
+    font-size: 13px;
+    color: rgb(249, 62, 62);
+}
+
+.card .brand {
+    text-align: center;
+    width: 280px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.card .rating {
+    margin: 5px;
+    font-size: 18px;
+    padding: 2px 0px 5px 0px;
+    text-align: center;
+    width: 130px;
+    color: white;
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+
+.card .stock {
+    margin: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.792);
+    font-weight: 400;
+}
